@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+	<title>Котишка</title>
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<!-- Меню -->
+			<div class="col-md-1">
+				<div class="dropdown open">
+					<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Меню
+					</button>
+					<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+						<a class="dropdown-item" href="Главная.html">Главная</a>
+						<a class="dropdown-item" href="Котик.html">Котишка</a>
+						<a class="dropdown-item" href="Формулы.html">Формулы</a>
+					</div> 
+				</div>
+			</div>
+			<!-- Хлебные крошки -->
+			<div class="col-md-7">
+				<nav aria-label="breadcrumb">
+					<ol class="breadcrumb">
+						<li class="breadcrumb-item active"><a href="Главная.html">Главная</a></li>
+						<li class="breadcrumb-item" aria-current="page">Котишка</li>
+					</ol>
+				</nav>
+			</div>
+			<div class="col-md-4">
+				<!--Кнопка для модуля-->
+				<button  type="button" class="btn btn-primary  btn-outline-dark center" data-toggle="modal" data-target="#exampleModal">
+					Нажми на меня
+				</button>
+				<!-- Модуль -->
+				<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="exampleModalLabel">Привет! Я котик-бегемотик:3</h5>
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+							<div class="modal-body">
+								Мур-мур-мур :c
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-dismiss="modal">Мяу</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div class="row">
+			<!-- Котишка -->
+			<div class="col-md-5">
+				<svg height="500" width="500">
+
+					<rect x="105" y="80" width="290" height="100" stroke="	#696969" stroke-width="3" fill="gray"/>
+					<rect x="120" y="100" rx="15" ry="15"  width="260" height="100" stroke="#FFEFD5" stroke-width="3" fill="pink"/>
+
+					<circle cx="250" cy="236" r="160" stroke="	#696969" stroke-width="3" fill="gray"/> 
+
+					<line x1="150" y1="230" x2="216" y2="250" stroke="#FFEFD5" stroke-width="3" fill="white"/>
+					<line x1="140" y1="250" x2="216" y2="250" stroke="#FFEFD5" stroke-width="3" fill="white"/>
+					<line x1="150" y1="270" x2="216" y2="250" stroke="#FFEFD5" stroke-width="3" fill="white"/>
+
+					<line x1="350" y1="230" x2="280" y2="250" stroke="#FFEFD5" stroke-width="3" fill="white" />
+					<line x1="360" y1="250" x2="280" y2="250" stroke="#FFEFD5" stroke-width="3" fill="white"/>
+					<line x1="350" y1="270" x2="280" y2="250" stroke="#FFEFD5" stroke-width="3" fill="white"/>
+
+					<line x1="175" y1="150" x2="200" y2="140" stroke="#FFEFD5" stroke-width="3" fill="white"/>
+					<line x1="325" y1="150" x2="300" y2="140" stroke="#FFEFD5" stroke-width="3" fill="white"/>
+
+					<line x1="250" y1="250" x2="250" y2="290" stroke="black" stroke-width="3" fill="white"/>
+					<line x1="250" y1="290" x2="220" y2="310" stroke="black" stroke-width="3" fill="white"/>
+					<line x1="250" y1="290" x2="280" y2="310" stroke="black" stroke-width="3" fill="white"/>
+
+					<ellipse cx="250" cy="250" rx="20" ry="15"
+					stroke="black" stroke-width="3" fill="pink"/>
+
+					<circle cx="190" cy="180" r="25" stroke="black" stroke-width="3" fill="black"/>
+					<circle cx="310" cy="180" r="25" stroke="black" stroke-width="3" fill="black"/>
+					<circle cx="190" cy="185" r="10" stroke="black" stroke-width="3" fill="white"/>
+					<circle cx="310" cy="185" r="10" stroke="black" stroke-width="3" fill="white"/>
+				</svg>
+			</div>
+			<!-- Медиа объект -->
+			<div class="col-md-7">
+				<br><br><br>
+				<div class="media">
+					<div class="media-left">
+						<a href="#">
+							<img width="70" height="80" class="media-object" src="Котик1.jpg" alt="Generic placeholder image">
+						</a>
+					</div>
+					<div class="media-body">
+						<h4 class="media-heading">Котик-обормотик</h4>
+						Очень милый котик, мне нравится)))
+						<br><br><br>
+						<div class="media m-t-2">
+							<a class="media-left" href="#">
+								<img width="70" height="80" class="media-object" src="Котик2.jpg" alt="Generic placeholder image">
+							</a>
+							<div class="media-body">
+								<h4 class="media-heading">Котик-жмотик</h4>
+								Почему он такой грустный? Что случилось?(((
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
